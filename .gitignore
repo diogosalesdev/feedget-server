@@ -1,9 +1,10 @@
 #LOGS
 node_modules
+dist
 
 #ENV
 .env
 
 #DB
-*.db
-dev.db
+**/*.db
+*/dev.db
