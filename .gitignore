@@ -1,3 +1,9 @@
+#LOGS
 node_modules
 
+#ENV
 .env
+
+#DB
+*.db
+dev.db
