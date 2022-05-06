@@ -21,3 +21,7 @@ routes.post('/feedbacks', async (req, res) => {
 
 	return res.status(201).send();
 });
+
+routes.get('/healthcheck', (req, res) => {
+	return res.status(200).send();
+});
